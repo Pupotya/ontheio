@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Basic Suite" parallel="methods" thread-count="10" configfailurepolicy="continue">
+
+    <test name="Basic Tests">
+        <classes>
+            <class name="onthe.io.LoginTest"/>
+            <class name="onthe.io.CabinetTest"/>
+            <class name="onthe.io.AuthorsTest"/>
+            <class name="onthe.io.ArticlesTest"/>
+            <class name="onthe.io.DashTest"/>
+        </classes>
+    </test>
+</suite>
